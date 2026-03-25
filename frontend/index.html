@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trading Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+    <h1>Trading Dashboard</h1>
+
+    <input id="symbol" placeholder="Enter symbol (AAPL)" />
+    <button onclick="loadPrice()">Get Price</button>
+
+    <h2 id="price"></h2>
+
+    <button onclick="buy()">Buy</button>
+    <button onclick="sell()">Sell</button>
+
+    <canvas id="chart"></canvas>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
